@@ -7,7 +7,7 @@ We tell them, no problem! We can produce a list with all of the appropriate deta
 
 Using the following syntax you create our super cool and not at all needy manager a list:
 
-SELECT 
+SELECT  
 product_name || ', ' || product_size|| ' (' || product_qty_type || ')'
 FROM product
 
